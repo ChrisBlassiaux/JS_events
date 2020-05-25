@@ -57,24 +57,6 @@ navbar.addEventListener("dblclick", function() {
 
 // Fonctionnalité 6 :
 
-// const view = document.querySelectorAll('.btn-success')
-// const text = document.querySelectorAll('.card-text')
-// const img = document.querySelectorAll('.card-img-top')
-
-// for (let i = 0; i < view.length; i++) {
-//   view[i].addEventListener('mouseover', function () {
-//     if (text[i].style.display !== 'none') {
-//       img[i].style.width = '20%'
-//       text[i].style.display = 'none'
-//     } else {
-//       img[i].style.width = '100%'
-//       text[i].style.display = ''
-//     }
-//   })
-// }
-
-
-
 let btnsView = document.getElementsByClassName('btn-success');
 let cardTexts = document.querySelectorAll('.card-text')
 let cardImgs = document.querySelectorAll('.card-img-top')
